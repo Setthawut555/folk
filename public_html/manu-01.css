@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%;
+  margin-top: 0.7%;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.manu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 3%;
+}
+.manu-bar div {
+  margin-right: 3%;
+}
+.manu-bar a {
+  text-decoration: none;
+  color: azure;
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 18%;
+  width: 70%;
+}
+.main .name {
+  font-size: 130px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 0;
+}
+
+.name p {
+  display: inline;
+  letter-spacing: 5px;
+}
+.under-name {
+  padding-top: 0;
+  padding-bottom: 5%;
+}
+
+.btn div {
+  display: inline;
+}
+
+.login {
+  background-color: aliceblue;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 3%;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.register {
+  background-color: #cf7746;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+}
+.register a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+@media only screen and (max-width: 320px) {
+  html,
+  body {
+    max-width: 320px;
+    width: 100%;
+    background-color: #292929;
+  }
+  .container {
+    background-image: none;
+  }
+  .manu-bar {
+    width: 90%;
+    top: 18px;
+    left: 10%;
+  }
+  .manu-bar div {
+    margin-right: 8%;
+  }
+  .manu-bar a {
+    font-size: 16px;
+  }
+  .main {
+    top: 65px;
+    width: 90%;
+    margin-left: 8%;
+  }
+  .main .name {
+    font-size: 55px;
+  }
+  .under-name {
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+    padding-bottom: 40px;
+  }
+  .btn div {
+    margin-left: 18px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html,
+  body {
+    max-width: 450px;
+    width: 100%;
+    background-color: #292929;
+  }
+  .container {
+    background-image: none;
+  }
+  .manu-bar {
+    width: 90%;
+    top: 18px;
+    left: 10%;
+  }
+  .manu-bar div {
+    margin-right: 8%;
+  }
+  .manu-bar a {
+    font-size: 16px;
+  }
+  .main {
+    top: 65px;
+    width: 90%;
+    margin-left: 8%;
+  }
+  .main .name {
+    font-size: 55px;
+  }
+  .under-name {
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+    padding-bottom: 40px;
+  }
+  .btn div {
+    margin-left: 10%;
+  }
+}
